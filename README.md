@@ -32,7 +32,7 @@ This makes it a lot easier for accounts that post daily memes or quotes, more sp
 ```shell
 git clone https://github.com/Svxy/Sneakys-Reel-Poster.git
 ```
-- If you dont plan on contributing, only keep whats in the <b><a href='https://github.com/Svxy/Sneakys-Reel-Poster/app'>/app</a></b> folder.
+- If you dont plan on contributing, only keep whats in the <b><a href='app'>/app</a></b> folder.
 
 <br><hr><br>
 
@@ -40,7 +40,7 @@ git clone https://github.com/Svxy/Sneakys-Reel-Poster.git
 
 <br>
 
-- To start you're going to want to move your Reel video into the <b><a href='https://github.com/Svxy/Sneakys-Reel-Poster/app'>/app</a></b> folder, and then define it in line 33 of <a href='app/post_reel.py'>post_reel.py</a>:<br>
+- To start you're going to want to move your Reel video into the <b><a href='app'>/app</a></b> folder, and then define it in line 33 of <a href='app/post_reel.py'>post_reel.py</a>:<br>
 ```python
     video_path = 'PATH/TO/YOUR/VIDEO.mp4'
 ```
