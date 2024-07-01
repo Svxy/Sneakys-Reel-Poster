@@ -40,15 +40,15 @@ git clone https://github.com/Svxy/Sneakys-Reel-Poster.git
 
 <br>
 
-- To start you're going to want to move your Reel video into the <b><a href='app'>/app</a></b> folder, and then define it in line 33 of <a href='app/post_reel.py'>post_reel.py</a>:<br>
+- To start you're going to want to move your Reel video into the <b><a href='app'>/app</a></b> folder, and then define it in line <b><a href='https://github.com/Svxy/Sneakys-Reel-Poster/blob/6d3adb878d071b767490434907c521be8579e4e6/app/post_reel.py#L33'>33</a></b> of <a href='app/post_reel.py'>post_reel.py</a>:<br>
 ```python
     video_path = 'PATH/TO/YOUR/VIDEO.mp4'
 ```
-<sup><b>And dont forget to add your desired caption, tags, and posting interval, lines 36 & 48.</b></sup>
+<sup><b>And dont forget to add your desired caption, tags, and posting interval, lines <b><a href='https://github.com/Svxy/Sneakys-Reel-Poster/blob/6d3adb878d071b767490434907c521be8579e4e6/app/post_reel.py#L36'>36</a></b> & <b><a href='https://github.com/Svxy/Sneakys-Reel-Poster/blob/6d3adb878d071b767490434907c521be8579e4e6/app/post_reel.py#L48'>48</a></b>.</b></sup>
 
 <br>
 
-- Next, because the script uses environment variables to define the Username and Password, you'll need to go into the <b><a href='app/run.cmd'>run.cmd</a></b> file and replace the USERNAME and PASSWORD variables to your own login on line 8.
+- Next, because the script uses environment variables to define the Username and Password, you'll need to go into the <b><a href='app/run.cmd'>run.cmd</a></b> file and replace the USERNAME and PASSWORD variables to your own login on line <b><a href='https://github.com/Svxy/Sneakys-Reel-Poster/blob/6d3adb878d071b767490434907c521be8579e4e6/app/run.cmd#L8'>8</a></b>.
 ```shell
 docker run -d --name reel-poster -v "%DAY_COUNT_PATH%:/app/day_count.txt" -e USERNAME=IG_USERNAME -e PASSWORD=IG_PASSWORD reel-poster
 ```
