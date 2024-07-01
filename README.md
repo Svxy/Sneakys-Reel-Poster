@@ -74,7 +74,7 @@ docker run -d --name reel-poster -v "%DAY_COUNT_PATH%:/app/day_count.txt" -e USE
 
 <br>
 
-I more than welcome any contributions to enhance DupliSweep and make it even better. To contribute, please just be sure to follow these guidelines:
+I more than welcome any contributions to enhance this project and make it even better. To contribute, please just be sure to follow these guidelines:
 
 1. Fork the repository on GitHub.
 2. Create a new branch from the `main` branch for your feature or bug fix.
