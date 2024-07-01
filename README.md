@@ -85,6 +85,8 @@ I more than welcome any contributions to enhance this project and make it even b
 
 ## Copyright
 
+<br>
+
 Copyright © 2024-2025 TnyavnTo/Svxy/Sneaky<br>[GNU General Public License](LICENSE).
 
 <br>
